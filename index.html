@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
   
   <title>Frontend Mentor | Notifications page</title>
 
@@ -14,21 +15,31 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <header class="heading">
-    <div class="heading-left">
-      Notifications 3
-    </div>
-    <div class="heading-right">
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      Mark all as read
-    </div> 
-  </header>  
+<body> 
   
   <main>
+    <div class="heading">
+
+      <div class="heading-left">
+        Notifications 3
+      </div>
+
+      <div class="heading-right">
+        <span class="heading-switch">
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </span>
+
+        <span class="text">
+          Mark all as read
+        </span>
+
+      </div>
+
+    </div>
+
     <p class="notif">
       <div class="notif-message">
         Mark Webber reacted to your recent post My first tournament today!
@@ -98,7 +109,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/farhan-navas">Farhan Navas</a>.
   </div>
 </body>
 </html>
