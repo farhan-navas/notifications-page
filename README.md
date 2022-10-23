@@ -21,7 +21,11 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ![](./design/screenshot.png)
 
-Above is the screenshot of my solution on desktop mode.
+Above is the screenshot of my solution on desktop
+
+![](./design/screenshot-read.png)
+
+And here is the screenshot of my solution when you toggle the "Mark all as read" switch
 
 ### Links
 
